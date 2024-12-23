@@ -1,16 +1,33 @@
 <div align="center">
   <img
     src="./asset/logo.jpg"
-    width="50%"
-    height="50%"
+    width="40%"
+    height="40%"
   />
 </div>
 
 ---
-# Questionnaire JavaScript 
+
+> [Notes]
+> liste de thèmes du questionnaire :
+
+    Syntaxe et Types de Données
+    Fonctions
+    Objets et Prototypes
+    Manipulation du DOM
+    Événements
+    Asynchronisme (Promesses, Async/Await)
+    Modules et Import/Export
+    Gestion des Erreurs
+    ES6+ (nouvelles fonctionnalités de JavaScript)
+    Performance et Optimisation
+
+---
 
 > [!IMPORTANT]
-> une réponse par.
+> plusieurs réponses possible sur certaines questions
+
+---
 
 **Question 1** : *Comment écrire "Hello" dans une boîte d'alerte?* 
 - [ ] ```alertBox("Hello");```
@@ -281,3 +298,9 @@ let total = eval("10*10+8");
 - [ ] ``` Number.parseInt()```
 - [ ] ``` parseInt()```
 - [ ] ``` Math.parseInt()```
+
+---
+
+[2ème questionnaires](/second.md)
+
+---

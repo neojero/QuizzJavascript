@@ -30,264 +30,264 @@
 ## Syntaxe et Types de Données
 
 **Question 9** : Comment déclarer et utiliser une variable de type string en JavaScript ?
-- [ ] ``` let str = "Hello";
-- [ ] ``` const str = 'Hello';
-- [ ] ``` var str = "Hello";
-- [ ] ``` string str = "Hello";
+- [ ] ``` let str = "Hello";```
+- [ ] ``` const str = 'Hello';```
+- [ ] ``` var str = "Hello";```
+- [ ] ``` string str = "Hello";```
 
 **Question 9** : Quelle est la différence entre == et === en JavaScript ?
-- [ ] ``` == compare la valeur, === compare la valeur et le type.
-- [ ] ``` == compare le type, === compare la valeur.
-- [ ] ``` == et === sont identiques.
-- [ ] ``` == compare la valeur et le type, === compare seulement la valeur.
+- [ ] ``` == compare la valeur, === compare la valeur et le type.```
+- [ ] ``` == compare le type, === compare la valeur.```
+- [ ] ``` == et === sont identiques.```
+- [ ] ``` == compare la valeur et le type, === compare seulement la valeur.```
 
 **Question 9** : Comment vérifier si une variable est de type number en JavaScript ?
-- [ ] ``` typeof variable === 'number'
-- [ ] ``` variable instanceof Number
-- [ ] ``` variable.isNumber()
-- [ ] ``` Number.isNumber(variable)
+- [ ] ``` typeof variable === 'number'```
+- [ ] ``` variable instanceof Number```
+- [ ] ``` variable.isNumber()```
+- [ ] ``` Number.isNumber(variable)```
 
 **Question 9** : Quelle est la différence entre un array et un object en JavaScript ?
-- [ ] ``` Un array est une liste ordonnée, un object est une collection de paires clé-valeur.
-- [ ] ``` Un array est une collection de paires clé-valeur, un object est une liste ordonnée.
-- [ ] ``` Un array et un object sont identiques.
-- [ ] ``` Un array est une fonction, un object est une liste.
+- [ ] ``` Un array est une liste ordonnée, un object est une collection de paires clé-valeur.```
+- [ ] ``` Un array est une collection de paires clé-valeur, un object est une liste ordonnée.```
+- [ ] ``` Un array et un object sont identiques.```
+- [ ] ``` Un array est une fonction, un object est une liste.```
 
 ## Fonctions
 
 **Question 9** : Comment déclarer une fonction en JavaScript ?
-- [ ] ``` function myFunction() {}
-- [ ] ``` let myFunction = function() {}
-- [ ] ``` const myFunction = () => {}
-- [ ] ``` Toutes les réponses ci-dessus sont correctes.
+- [ ] ``` function myFunction() {}```
+- [ ] ``` let myFunction = function() {}```
+- [ ] ``` const myFunction = () => {}```
+- [ ] ``` Toutes les réponses ci-dessus sont correctes.```
 
 **Question 9** : Qu'est-ce qu'une fonction fléchée (arrow function) et comment l'utiliser ?
-- [ ] ``` function arrowFunction() {}
-- [ ] ``` let arrowFunction = () => {}
-- [ ] ``` const arrowFunction = function() {}
-- [ ] ``` arrowFunction = () => {}
+- [ ] ``` function arrowFunction() {}```
+- [ ] ``` let arrowFunction = () => {}```
+- [ ] ``` const arrowFunction = function() {}```
+- [ ] ``` arrowFunction = () => {}```
 
 **Question 9** : Comment passer des paramètres par défaut à une fonction en JavaScript ?
-- [ ] ``` function myFunction(param = 'default') {}
-- [ ] ``` function myFunction(param = default) {}
-- [ ] ``` function myFunction(param = defaultValue) {}
-- [ ] ``` function myFunction(param = 'defaultValue') {}
+- [ ] ``` function myFunction(param = 'default') {}```
+- [ ] ``` function myFunction(param = default) {}```
+- [ ] ``` function myFunction(param = defaultValue) {}```
+- [ ] ``` function myFunction(param = 'defaultValue') {}```
 
 **Question 9** : Qu'est-ce qu'une fonction anonyme et comment l'utiliser ?
-- [ ] ``` function() {}
-- [ ] ``` let anonymousFunction = function() {}
-- [ ] ``` const anonymousFunction = () => {}
-- [ ] ``` anonymousFunction = function() {}
+- [ ] ``` function() {}```
+- [ ] ``` let anonymousFunction = function() {}```
+- [ ] ``` const anonymousFunction = () => {}```
+- [ ] ``` anonymousFunction = function() {}```
 
 **Question 9** : Comment utiliser la méthode apply pour appeler une fonction avec un contexte spécifique ?
-- [ ] ``` myFunction.apply(context, [args])
-- [ ] ``` myFunction.call(context, args)
-- [ ] ``` myFunction.bind(context, args)
-- [ ] ``` myFunction.context(args)
+- [ ] ``` myFunction.apply(context, [args])```
+- [ ] ``` myFunction.call(context, args)```
+- [ ] ``` myFunction.bind(context, args)```
+- [ ] ``` myFunction.context(args)```
 
 ## Objets et Prototypes
 
 **Question 9** : Comment créer un objet en JavaScript ?
-- [ ] ``` let obj = {}
-- [ ] ``` const obj = new Object()
-- [ ] ``` var obj = Object.create()
-- [ ] ``` Toutes les réponses ci-dessus sont correctes.
+- [ ] ``` let obj = {}```
+- [ ] ``` const obj = new Object()```
+- [ ] ``` var obj = Object.create()```
+- [ ] ``` Toutes les réponses ci-dessus sont correctes.```
 
 **Question 9** : Qu'est-ce qu'un prototype en JavaScript et comment l'utiliser ?
-- [ ] ``` function MyObject() {} MyObject.prototype.method = function() {}
-- [ ] ``` let MyObject = { prototype: { method: function() {} } }
-- [ ] ``` const MyObject = function() { this.prototype = { method: function() {} } }
-- [ ] ``` var MyObject = { method: function() {} }
+- [ ] ``` function MyObject() {} MyObject.prototype.method = function() {}```
+- [ ] ``` let MyObject = { prototype: { method: function() {} } }```
+- [ ] ``` const MyObject = function() { this.prototype = { method: function() {} } }```
+- [ ] ``` var MyObject = { method: function() {} }```
 
 **Question 9** : Comment ajouter une méthode à un prototype d'objet ?
-- [ ] ``` MyObject.prototype.newMethod = function() {}
-- [ ] ``` MyObject.newMethod = function() {}
-- [ ] ``` MyObject.prototype = { newMethod: function() {} }
-- [ ] ``` MyObject.newMethod = new Function()
+- [ ] ``` MyObject.prototype.newMethod = function() {}```
+- [ ] ``` MyObject.newMethod = function() {}```
+- [ ] ``` MyObject.prototype = { newMethod: function() {} }```
+- [ ] ``` MyObject.newMethod = new Function()```
 
 **Question 9** : Quelle est la différence entre Object.create et l'opérateur new ?
-- [ ] ``` Object.create crée un nouvel objet avec un prototype spécifié, new crée une instance d'une fonction constructeur.
-- [ ] ``` Object.create crée une instance d'une fonction constructeur, new crée un nouvel objet avec un prototype spécifié.
-- [ ] ``` Object.create et new sont identiques.
-- [ ] ``` Object.create est utilisé pour les objets, new est utilisé pour les fonctions.
+- [ ] ``` Object.create crée un nouvel objet avec un prototype spécifié, new crée une instance d'une fonction constructeur.```
+- [ ] ``` Object.create crée une instance d'une fonction constructeur, new crée un nouvel objet avec un prototype spécifié.```
+- [ ] ``` Object.create et new sont identiques.```
+- [ ] ``` Object.create est utilisé pour les objets, new est utilisé pour les fonctions.```
 
 **Question 9** : Comment utiliser Object.assign pour fusionner des objets ?
-- [ ] ``` Object.assign(target, source1, source2)
-- [ ] ``` Object.merge(target, source1, source2)
-- [ ] ``` Object.combine(target, source1, source2)
-- [ ] ``` Object.join(target, source1, source2)
+- [ ] ``` Object.assign(target, source1, source2)```
+- [ ] ``` Object.merge(target, source1, source2)```
+- [ ] ``` Object.combine(target, source1, source2)```
+- [ ] ``` Object.join(target, source1, source2)```
 
 ## Manipulation du DOM
 
 **Question 9** : Comment sélectionner un élément par son ID en JavaScript ?
-- [ ] ``` document.getElementById('id')
-- [ ] ``` document.querySelector('#id')
-- [ ] ``` document.getElementByID('id')
-- [ ] ``` document.select('#id')
+- [ ] ``` document.getElementById('id')```
+- [ ] ``` document.querySelector('#id')```
+- [ ] ``` document.getElementByID('id')```
+- [ ] ``` document.select('#id')```
 
 **Question 9** : Comment ajouter un nouvel élément au DOM ?
-- [ ] ``` document.createElement('element')
-- [ ] ``` document.append('element')
-- [ ] ``` document.addElement('element')
-- [ ] ``` document.insert('element')
+- [ ] ``` document.createElement('element')```
+- [ ] ``` document.append('element')```
+- [ ] ``` document.addElement('element')```
+- [ ] ``` document.insert('element')```
 
 **Question 9** : Comment modifier le contenu textuel d'un élément ?
-- [ ] ``` element.textContent = 'new text'
-- [ ] ``` element.innerText = 'new text'
-- [ ] ``` element.setText('new text')
-- [ ] ``` element.content = 'new text'
+- [ ] ``` element.textContent = 'new text'```
+- [ ] ``` element.innerText = 'new text'```
+- [ ] ``` element.setText('new text')```
+- [ ] ``` element.content = 'new text'```
 
 **Question 9** : Comment ajouter un écouteur d'événement à un élément ?
-- [ ] ``` element.addEventListener('event', callback)
-- [ ] ``` element.addListener('event', callback)
-- [ ] ``` element.on('event', callback)
-- [ ] ``` element.listen('event', callback)
+- [ ] ``` element.addEventListener('event', callback)```
+- [ ] ``` element.addListener('event', callback)```
+- [ ] ``` element.on('event', callback)```
+- [ ] ``` element.listen('event', callback)```
 
 **Question 9** : Comment supprimer un élément du DOM ?
-- [ ] ``` element.remove()
-- [ ] ``` element.delete()
-- [ ] ``` element.parentNode.removeChild(element)
-- [ ] ``` element.destroy()
+- [ ] ``` element.remove()```
+- [ ] ``` element.delete()```
+- [ ] ``` element.parentNode.removeChild(element)```
+- [ ] ``` element.destroy()```
 
 ## Événements
 
 **Question 9** : Comment ajouter un écouteur d'événement à un bouton en JavaScript ?
-- [ ] ``` button.addEventListener('click', callback)
-- [ ] ``` button.onclick = callback
-- [ ] ``` button.click(callback)
-- [ ] ``` Toutes les réponses ci-dessus sont correctes.
+- [ ] ``` button.addEventListener('click', callback)```
+- [ ] ``` button.onclick = callback```
+- [ ] ``` button.click(callback)```
+- [ ] ``` Toutes les réponses ci-dessus sont correctes.```
 
 **Question 9** : Quelle est la différence entre addEventListener et onclick ?
-- [ ] ``` addEventListener permet d'ajouter plusieurs écouteurs, onclick remplace l'écouteur existant.
-- [ ] ``` addEventListener remplace l'écouteur existant, onclick permet d'ajouter plusieurs écouteurs.
-- [ ] ``` addEventListener et onclick sont identiques.
-- [ ] ``` addEventListener est utilisé pour les événements, onclick est utilisé pour les fonctions.
+- [ ] ``` addEventListener permet d'ajouter plusieurs écouteurs, onclick remplace l'écouteur existant.```
+- [ ] ``` addEventListener remplace l'écouteur existant, onclick permet d'ajouter plusieurs écouteurs.```
+- [ ] ``` addEventListener et onclick sont identiques.```
+- [ ] ``` addEventListener est utilisé pour les événements, onclick est utilisé pour les fonctions.```
 
 **Question 9** : Comment empêcher le comportement par défaut d'un événement ?
-- [ ] ``` event.preventDefault()
-- [ ] ``` event.stopDefault()
-- [ ] ``` event.prevent()
-- [ ] ``` event.defaultPrevent()
+- [ ] ``` event.preventDefault()```
+- [ ] ``` event.stopDefault()```
+- [ ] ``` event.prevent()```
+- [ ] ``` event.defaultPrevent()```
 
 **Question 9** : Comment arrêter la propagation d'un événement ?
-- [ ] ``` event.stopPropagation()
-- [ ] ``` event.stopBubbling()
-- [ ] ``` event.halt()
-- [ ] ``` event.propagationStop()
+- [ ] ``` event.stopPropagation()```
+- [ ] ``` event.stopBubbling()```
+- [ ] ``` event.halt()```
+- [ ] ``` event.propagationStop()```
 
 **Question 9** : Comment déléguer des événements en JavaScript ?
-- [ ] ``` parent.addEventListener('event', callback)
-- [ ] ``` parent.delegate('event', callback)
-- [ ] ``` parent.on('event', callback)
-- [ ] ``` parent.listen('event', callback)
+- [ ] ``` parent.addEventListener('event', callback)```
+- [ ] ``` parent.delegate('event', callback)```
+- [ ] ``` parent.on('event', callback)```
+- [ ] ``` parent.listen('event', callback)```
 
 ## Asynchronisme (Promesses, Async/Await)
 
 **Question 9** : Qu'est-ce qu'une promesse en JavaScript et comment l'utiliser ?
-- [ ] ``` let promise = new Promise((resolve, reject) => {})
-- [ ] ``` let promise = Promise.create((resolve, reject) => {})
-- [ ] ``` let promise = new Promise((resolve, reject))
-- [ ] ``` let promise = Promise.new((resolve, reject) => {})
+- [ ] ``` let promise = new Promise((resolve, reject) => {})```
+- [ ] ``` let promise = Promise.create((resolve, reject) => {})```
+- [ ] ``` let promise = new Promise((resolve, reject))```
+- [ ] ``` let promise = Promise.new((resolve, reject) => {})```
 
 **Question 9** : Comment utiliser async et await pour gérer des opérations asynchrones ?
-- [ ] ``` async function myFunction() { await promise; }
-- [ ] ``` function myFunction() { async await promise; }
- - [ ] ``` async function myFunction() { return await promise; }
-- [ ] ``` function myFunction() { return async await promise; }
+- [ ] ``` async function myFunction() { await promise; }```
+- [ ] ``` function myFunction() { async await promise; }```
+ - [ ] ``` async function myFunction() { return await promise; }```
+- [ ] ``` function myFunction() { return async await promise; }```
 
 **Question 9** : Quelle est la différence entre Promise.all et Promise.race ?
-- [ ] ``` Promise.all attend que toutes les promesses soient résolues, Promise.race attend que la première promesse soit résolue.
-- [ ] ``` Promise.all attend que la première promesse soit résolue, Promise.race attend que toutes les promesses soient résolues.
-- [ ] ``` Promise.all et Promise.race sont identiques.
-- [ ] ``` Promise.all est utilisé pour les promesses, Promise.race est utilisé pour les fonctions.
+- [ ] ``` Promise.all attend que toutes les promesses soient résolues, Promise.race attend que la première promesse soit résolue.```
+- [ ] ``` Promise.all attend que la première promesse soit résolue, Promise.race attend que toutes les promesses soient résolues.```
+- [ ] ``` Promise.all et Promise.race sont identiques.```
+- [ ] ``` Promise.all est utilisé pour les promesses, Promise.race est utilisé pour les fonctions.```
 
 **Question 9** : Comment gérer les erreurs avec async et await ?
-- [ ] ``` try { await promise; } catch (error) {}
-- [ ] ``` async { await promise; } catch (error) {}
-- [ ] ``` try { return await promise; } catch (error) {}
-- [ ] ``` async { return await promise; } catch (error) {}
+- [ ] ``` try { await promise; } catch (error) {}```
+- [ ] ``` async { await promise; } catch (error) {}```
+- [ ] ``` try { return await promise; } catch (error) {}```
+- [ ] ``` async { return await promise; } catch (error) {}```
 
 **Question 9** : Comment créer une promesse qui se résout après un certain délai ?
-- [ ] ``` new Promise(resolve => setTimeout(resolve, 1000))
-- [ ] ``` Promise.delay(1000)
-- [ ] ``` new Promise(resolve => setTimeout(() => resolve(), 1000))
-- [ ] ``` Promise.timeout(1000)
+- [ ] ``` new Promise(resolve => setTimeout(resolve, 1000))```
+- [ ] ``` Promise.delay(1000)```
+- [ ] ``` new Promise(resolve => setTimeout(() => resolve(), 1000))```
+- [ ] ``` Promise.timeout(1000)```
 
 ## Modules et Import/Export
 
 **Question 9** : Comment exporter une fonction depuis un module en JavaScript ?
-        A) export function myFunction() {}
-        B) module.exports = myFunction
-        C) export myFunction = function() {}
-        D) exports.myFunction = function() {}
+- [ ] ``` export function myFunction() {}```
+- [ ] ``` module.exports = myFunction```
+- [ ] ``` export myFunction = function() {}```
+- [ ] ``` exports.myFunction = function() {}```
 
 **Question 9** : Comment importer une fonction depuis un module en JavaScript ?
-        A) import { myFunction } from 'module'
-        B) const myFunction = require('module')
-        C) import myFunction from 'module'
-        D) let myFunction = import('module')
+- [ ] ``` import { myFunction } from 'module'```
+- [ ] ``` const myFunction = require('module')```
+- [ ] ``` import myFunction from 'module'```
+- [ ] ``` let myFunction = import('module')```
 
 **Question 9** : Quelle est la différence entre export default et export nommé ?
-        A) export default exporte une seule valeur par défaut, export nommé exporte plusieurs valeurs.
-        B) export default exporte plusieurs valeurs, export nommé exporte une seule valeur par défaut.
-        C) export default et export nommé sont identiques.
-        D) export default est utilisé pour les fonctions, export nommé est utilisé pour les variables.
+- [ ] ``` export default exporte une seule valeur par défaut, export nommé exporte plusieurs valeurs.```
+- [ ] ``` export default exporte plusieurs valeurs, export nommé exporte une seule valeur par défaut.```
+- [ ] ``` export default et export nommé sont identiques.```
+- [ ] ``` export default est utilisé pour les fonctions, export nommé est utilisé pour les variables.```
 
 **Question 9** : Comment utiliser des modules ES6 dans un projet JavaScript ?
-        A) import 'module'
-        B) require('module')
-        C) import * as module from 'module'
-        D) const module = import('module')
+- [ ] ``` import 'module'```
+- [ ] ``` require('module')```
+- [ ] ``` import * as module from 'module'```
+- [ ] ``` const module = import('module')```
 
 **Question 9** : Comment gérer les dépendances avec des modules en JavaScript ?
-        A) import { dependency } from 'module'
-        B) const dependency = require('module')
-        C) import dependency from 'module'
-        D) let dependency = import('module')
+- [ ] ``` import { dependency } from 'module'```
+- [ ] ``` const dependency = require('module')```
+- [ ] ``` import dependency from 'module'```
+- [ ] ``` let dependency = import('module')```
 
 ## Gestion des Erreurs
 
 **Question 9** : Comment utiliser try, catch et finally pour gérer les erreurs en JavaScript ?
-        A) try { code } catch (error) { handleError } finally { cleanup }
-        B) try { code } catch (error) { handleError }
-        C) try { code } finally { cleanup }
-        D) catch (error) { handleError } finally { cleanup }
+- [ ] ``` try { code } catch (error) { handleError } finally { cleanup }```
+- [ ] ``` try { code } catch (error) { handleError }```
+- [ ] ``` try { code } finally { cleanup }```
+- [ ] ``` catch (error) { handleError } finally { cleanup }```
 
 **Question 9** : Qu'est-ce qu'une erreur de référence (ReferenceError) et comment la gérer ?
-        A) Une erreur qui se produit lorsqu'une variable n'est pas définie.
-        B) Une erreur qui se produit lorsqu'une fonction n'est pas définie.
-        C) Une erreur qui se produit lorsqu'un objet n'est pas défini.
-        D) Une erreur qui se produit lorsqu'une méthode n'est pas définie.
+- [ ] ``` Une erreur qui se produit lorsqu'une variable n'est pas définie.```
+- [ ] ``` Une erreur qui se produit lorsqu'une fonction n'est pas définie.```
+- [ ] ``` Une erreur qui se produit lorsqu'un objet n'est pas défini.```
+- [ ] ``` Une erreur qui se produit lorsqu'une méthode n'est pas définie.```
 
 **Question 9** : Comment lancer une erreur personnalisée en JavaScript ?
-        A) throw new Error('message')
-        B) throw 'message'
-        C) throw new Exception('message')
-        D) throw new CustomError('message')
+- [ ] ``` throw new Error('message')```
+- [ ] ``` throw 'message'```
+- [ ] ``` throw new Exception('message')```
+- [ ] ``` throw new CustomError('message')```
 
 **Question 9** : Comment gérer les erreurs asynchrones avec async et await ?
-        A) try { await promise; } catch (error) {}
-        B) async { await promise; } catch (error) {}
-        C) try { return await promise; } catch (error) {}
-        D) async { return await promise; } catch (error) {}
+- [ ] ``` try { await promise; } catch (error) {}```
+- [ ] ``` async { await promise; } catch (error) {}```
+- [ ] ``` try { return await promise; } catch (error) {}```
+- [ ] ``` async { return await promise; } catch (error) {}```
 
 **Question 9** : Comment utiliser console.error pour afficher des messages d'erreur ?
-        A) console.error('message')
-        B) console.log('error: message')
-        C) console.warn('message')
-        D) console.debug('message')
+- [ ] ``` console.error('message')```
+- [ ] ``` console.log('error: message')```
+- [ ] ``` console.warn('message')```
+- [ ] ``` console.debug('message')```
 
 **Question 9** : Comment utiliser les paramètres rest et spread en JavaScript ?
-        A) function myFunction(...args) {}
-        B) function myFunction(args...) {}
-        C) function myFunction(args) {}
-        D) function myFunction(...rest) {}
+- [ ] ``` function myFunction(...args) {}```
+- [ ] ``` function myFunction(args...) {}```
+- [ ] ``` function myFunction(args) {}```
+- [ ] ``` function myFunction(...rest) {}```
 
 **Question 9** : Qu'est-ce que le let et const et comment les utiliser ?
-        A) let est utilisé pour les variables mutables, const pour les variables immuables.
-        B) let est utilisé pour les variables immuables, const pour les variables mutables.
-        C) let et const sont identiques.
-        D) let est utilisé pour les fonctions, const pour les objets.
+- [ ] ``` let est utilisé pour les variables mutables, const pour les variables immuables.```
+- [ ] ``` let est utilisé pour les variables immuables, const pour les variables mutables.```
+- [ ] ``` let et const sont identiques.```
+- [ ] ``` let est utilisé pour les fonctions, const pour les objets.```
 
 ## Questions de Code
 
@@ -625,3 +625,7 @@ function chainPromises() {
 }
 
 chainPromises().then(result => console.log(result)); // Doit afficher "First" après 1 seconde, "S
+
+
+
+*Created with ❤️ by Jérôme BOEBION*

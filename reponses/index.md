@@ -1,66 +1,57 @@
-<div align="center">
-  <img
-    src="./asset/logo.jpg"
-    width="50%"
-    height="50%"
-  />
-</div>
+# Questionnaire JavaScript
 
----
-# Questionnaire JavaScript 
-
-> [!IMPORTANT]
-> une réponse par.
+> [!CAUTION]
+> document avec réponses
 
 **Question 1** : *Comment écrire "Hello" dans une boîte d'alerte?* 
 - [ ] ```alertBox("Hello");```
-- [ ] ```alert("Hello");```
+- [X] ```alert("Hello");```
 - [ ] ```msg("Hello");```
 - [ ] ```msgBox("Hello");```
 
 **Question 2** : *Quelle est la bonne manière d'écrire un commentaire en JavaScript?* 
 - [ ] ``` <!-- ... --> ```
-- [ ] ``` // ... ```
+- [X] ``` // ... ```
 - [ ] ``` \\ ... ```
 - [ ] ``` {# ... #} ```
 
 **Question 3** : *Comment pouvez-vous détecter le nom de l'application du navigateur du client?*  
-- [ ] ``` navigator.appName; ```
+- [X] ``` navigator.appName; ```
 - [ ] ```navigator.browserName``` 
 - [ ] ```browser.name``` 
 
 **Question 4** : *Comment déclarez-vous une nouvelle date en JavaScript?* 
 - [ ] ``` var date = Date(); ```
 - [ ] ``` var date = date(now); ```
-- [ ] ``` var date = new Date(); ```
+- [X] ``` var date = new Date(); ```
 - [ ] ``` var date = date().current(); ```
 
 **Question 5** : *Lequel est correct?*
 - [ ] ``` i =+ 1; ```
-- [ ] ``` i += 1; ```
+- [X] ``` i += 1; ```
 - [ ] ``` i = i++1; ```
 - [ ] ``` +i+; ```
 
 **Question 6** : *Quelle fonction est utilisée pour charger l'URL suivante dans la liste de l'historique?*
 - [ ] ``` window.history.next(); ```
 - [ ] ``` window.history.load_next(); ```
-- [ ] ``` window.history.forward(); ```
+- [X] ``` window.history.forward(); ```
 - [ ] ``` window.history.load_forward(); ```
 
 **Question 7** : *Comment écrivez-vous n'importe quoi dans la page Web en JavaScript?  
 - [ ] ``` window.write(...) ```
-- [ ] ``` document.write(...) ```
+- [X] ``` document.write(...) ```
 - [ ] ``` window.page.write(...) ```
 - [ ] ``` document.page.write(...) ```
 
 **Question 8** : *Comment créez-vous un tableau JavaScript?*
 - [ ] ``` var fruits = "banana", "apple", "peach"; ```
 - [ ] ``` var fruits = (1:"banana", 2:"apple", 3:"peach"); ```
-- [ ] ``` var fruits = ["banana", "apple", "peach"]; ```
+- [X] ``` var fruits = ["banana", "apple", "peach"]; ```
 - [ ] ``` var fruits = 1 = ("banana"), 2 = ("apple"), 3 = ("peach"); ```
 
 **Question 9** : *Peut-on définir n'importe quel style à une balise HTML en utilisant JavaScript?* 
-- [ ] ``` oui ```
+- [X] ``` oui ```
 - [ ] ``` non ```
 
 **Question 10** : *Que va renvoyer le code suivant ?*
@@ -70,49 +61,49 @@ arr.slice(0,3);
 ```
 - [ ] ``` Renvoie [4,5] ```
 - [ ] ``` Renvoie [1,2,3,4] ```
-- [ ] ``` Renvoie [1,2,3] ```
+- [X] ``` Renvoie [1,2,3] ```
 - [ ] ``` Renvoie [1,2,3,4,5] ```
 
 **Question 11** : *Lequel des suivants est utilisé pour identifier un tableau?* 
 - [ ] ``` === ```
-- [ ] ``` typeof ```
+- [X] ``` typeof ```
 - [ ] ``` isarrayType() ```
 - [ ] ``` == ```
 
 **Question 12** : *Comment appelle-t-on les fonctions sans valeur de retour?* 
 - [ ] ``` Fonction statique ```
 - [ ] ``` Méthode ```
-- [ ] ``` Procédure ```
+- [X] ``` Procédure ```
 - [ ] ``` Fonction dynamique ```
   
 **Question 13** : *JavaScript n'est pas un langage sensible à la casse.*
 - [ ] ``` vrai ```
-- [ ] ``` faux ```
+- [X] ``` faux ```
 
 **Question 14** : *Quelle méthode convertit une chaîne JSON en un objet JavaScript?*
 
-- [ ] ``` JSON.parse()```
+- [X] ``` JSON.parse()```
 - [ ] ``` JSON.stringify()```
 - [ ] ``` Object.parse()```
 - [ ] ``` String.parseJSON()```
 - [ ] ``` JSON.toObject()```
 
 **Question 15** : *Comment créez-vous une promesse en JavaScript?*
-- [ ] ``` new Promise()```
+- [X] ``` new Promise()```
 - [ ] ``` Promise.create()```
 - [ ] ``` createPromise()```
 - [ ] ``` Promise()```
 
 **Question 16** : *Quelle méthode est utilisée pour sérialiser un objet en chaîne JSON en JavaScript?*
 
-- [ ] ``` JSON.stringify()```
+- [X] ``` JSON.stringify()```
 - [ ] ``` JSON.parse()```
 - [ ] ``` Object.toString()```
 - [ ] ``` Stringify.object()```
 
 **Question 17** : *Comment déclarez-vous une classe nommée 'Car' en JavaScript?*
 
-- [ ] ``` class Car {}```
+- [X] ``` class Car {}```
 - [ ] ``` function Car() {}```
 - [ ] ``` new Class(Car)```
 - [ ] ``` createClass('Car')```
@@ -120,13 +111,13 @@ arr.slice(0,3);
 **Question 18** : *Comment définissez-vous une fonction asynchrone en JavaScript?*
 
 - [ ] ``` function async() {}```
-- [ ] ``` async function() {}```
+- [X] ``` async function() {}```
 - [ ] ``` function() async {}```
 - [ ] ``` async() function {}```
 
 **Question 19** : *Comment pouvez-vous empêcher une action par défaut dans un gestionnaire d'événements en JavaScript?*
 
-- [ ] ``` event.preventDefault()```
+- [X] ``` event.preventDefault()```
 - [ ] ``` event.stop()```
 - [ ] ``` preventDefault()```
 - [ ] ``` event.stopPropagation()```
@@ -134,13 +125,13 @@ arr.slice(0,3);
 **Question 20** : *Que fait la méthode 'map' en JavaScript?*
 
 - [ ] ``` Associe une valeur à une clé dans un objet```
-- [ ] ``` Crée un nouveau tableau avec les résultats de l'appel d'une fonction pour chaque élément du tableau```
+- [X] ``` Crée un nouveau tableau avec les résultats de l'appel d'une fonction pour chaque élément du tableau```
 - [ ] ``` Applique une fonction contre un accumulateur et chaque élément dans le tableau (de gauche à droite)```
 - [ ] ``` Recherche des éléments dans un tableau qui correspondent à une condition```
 
 **Question 21** : *Quelle méthode JavaScript est utilisée pour trier les éléments d'un tableau?*
 
-- [ ] ``` array.sort()```
+- [X] ``` array.sort()```
 - [ ] ``` sort(array)```
 - [ ] ``` array.order()```
 - [ ] ``` order(array)```
@@ -150,12 +141,12 @@ arr.slice(0,3);
 - [ ] ``` Number('3.14')```
 - [ ] ``` parseNum('3.14')```
 - [ ] ``` int('3.14')```
-- [ ] ``` parseFloat('3.14')```
+- [X] ``` parseFloat('3.14')```
 
 **Question 23** : *Dans quel élément mettez-vous JavaScript?*
 
 - [ ] ``` <var>```
-- [ ] ``` <script>```
+- [X] ``` <script>```
 - [ ] ``` <section>```
 - [ ] ``` <code>```
 
@@ -169,7 +160,7 @@ if (10 > 4) {
   docs = 55;
 }
 ```
-- [ ] ``` true```
+- [X] ``` true```
 - [ ] ``` 55```
 - [ ] ``` undefined```
 
@@ -178,20 +169,20 @@ if (10 > 4) {
 - [ ] ``` rnd(5.35)```
 - [ ] ``` Math.rnd(5.35)```
 - [ ] ``` round(5.35)```
-- [ ] ``` Math.round(5.35)```
+- [X] ``` Math.round(5.35)```
 
 **Question 26** : *Lequel est la syntaxe correcte pour ouvrir une nouvelle fenêtre appelée "docs"?*
 
 - [ ] ``` docs = window.open.new("http://www.docs.com");```
 - [ ] ``` docs = window.new("http://www.docs.com");```
-- [ ] ``` docs = window.open("http://www.docs.com");```
+- [X] ``` docs = window.open("http://www.docs.com");```
 - [ ] ``` docs = window("http://www.docs.com");```
 
 **Question 27** : *Quel sera le résultat du code suivant?*
 ```js
 let stringToNum = parseInt("123ab");
 ```
-- [ ] ``` 123```
+- [X] ``` 123```
 - [ ] ``` Exception```
 - [ ] ``` 123ab```
 - [ ] ``` NaN```
@@ -201,7 +192,7 @@ let stringToNum = parseInt("123ab");
 let total = eval("10*10+8");
 ```
 - [ ] ``` 10*10+8```
-- [ ] ``` 108 en tant que valeur entière```
+- [X] ``` 108 en tant que valeur entière```
 - [ ] ``` 108 en tant que chaîne```
 - [ ] ``` Exception levée```
 
@@ -209,19 +200,19 @@ let total = eval("10*10+8");
 
 - [ ] ``` Elle va déclencher une exception```
 - [ ] ``` Elle va retourner 0```
-- [ ] ``` Elle va retourner undefined```
+- [X] ``` Elle va retourner undefined```
 - [ ] ``` Aucune des options mentionnées```
 
 **Question 30** : *À quoi se réfère 'this' dans une méthode JavaScript?*
 
 - [ ] ``` L'objet global```
 - [ ] ``` La fonction elle-même```
-- [ ] ``` L'objet qui a appelé la méthode```
+- [X] ``` L'objet qui a appelé la méthode```
 - [ ] ``` L'objet document```
 
 **Question 31** : *Quelle méthode est utilisée pour arrondir un nombre au plus proche entier en JavaScript?*
 
-- [ ] ``` Math.round()```
+- [X] ``` Math.round()```
 - [ ] ``` Math.floor()```
 - [ ] ``` Math.ceil()```
 - [ ] ``` Number.round()```
@@ -229,41 +220,41 @@ let total = eval("10*10+8");
 **Question 32** : *Quel opérateur est utilisé pour comparer à la fois la valeur et le type?*
 
 - [ ] ```==```
-- [ ] ```===```
+- [X] ```===```
 - [ ] ``` !=```
 - [ ] ``` !==```
 
 **Question 33** : *Quelle méthode JavaScript est utilisée pour itérer sur toutes les propriétés d'un objet?*
 
 - [ ] ``` Object.forEach()```
-- [ ] ``` for...in```
+- [X] ``` for...in```
 - [ ] ``` Object.loop()```
 - [ ] ``` forEach()```
 
 **Question 34** : *Que fait la méthode 'splice' dans un tableau?*
 
-- [ ] ``` Supprime et/ou ajoute de nouveaux éléments à un tableau```
+- [X] ``` Supprime et/ou ajoute de nouveaux éléments à un tableau```
 - [ ] ``` Joint deux tableaux en un seul```
 - [ ] ``` Trie les éléments d'un tableau```
 - [ ] ``` Trouve l'indice d'un élément dans le tableau```
 
 **Question 35** : *Quelle méthode JavaScript est utilisée pour retirer le dernier élément d'un tableau et renvoyer cet élément?*
 
-- [ ] ``` pop()```
+- [X] ``` pop()```
 - [ ] ``` push()```
 - [ ] ``` last()```
 - [ ] ``` removeLast()```
 
 **Question 36** : *À quoi sert 'break' en JavaScript?*
 
-- [ ] ``` Pour arrêter l'exécution d'une boucle```
+- [X] ``` Pour arrêter l'exécution d'une boucle```
 - [ ] ``` Pour briser le code en plusieurs lignes```
 - [ ] ``` Pour sortir d'une fonction```
 - [ ] ``` Pour mettre en pause le débogueur```
 
 **Question 37** : *Quelle méthode est utilisée pour ajouter un ou plusieurs éléments au début d'un tableau?*
 
-- [ ] ``` unshift()```
+- [X] ``` unshift()```
 - [ ] ``` shift()```
 - [ ] ``` push()```
 - [ ] ``` prepend()```
@@ -272,12 +263,12 @@ let total = eval("10*10+8");
 
 - [ ] ``` Undefined```
 - [ ] ``` Number```
-- [ ] ``` Float```
+- [X] ``` Float```
 - [ ] ``` Boolean```
 
 **Question 39** : *Quelle méthode est utilisée pour transformer une chaîne en un entier en JavaScript?*
 
 - [ ] ``` int.parse()```
 - [ ] ``` Number.parseInt()```
-- [ ] ``` parseInt()```
+- [X] ``` parseInt()```
 - [ ] ``` Math.parseInt()```

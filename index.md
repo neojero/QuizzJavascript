@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: Uncover
+theme: default
 markdown.marp.enableHtml: true
 paginate: true
 ---
@@ -17,8 +17,8 @@ img[alt~="center"] {
 }
 
 blockquote {
-  background: #ffedcc;
-  border-left: 10px solid #d1bf9d;
+  background:rgb(230, 227, 222);
+  border-left: 10px solidrgb(203, 15, 52);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
@@ -60,7 +60,9 @@ blockquote:after{
 - [ ] ``` // ... ```
 - [ ] ``` \\ ... ```
 - [ ] ``` {# ... #} ```
+  
 ---
+
 **Question 3** : *Comment pouvez-vous détecter le nom de l'application du navigateur du client?*  
 - [ ] ``` navigator.appName; ```
 - [ ] ```navigator.browserName``` 
@@ -71,7 +73,9 @@ blockquote:after{
 - [ ] ``` var date = date(now); ```
 - [ ] ``` var date = new Date(); ```
 - [ ] ``` var date = date().current(); ```
+
 ---
+
 **Question 5** : *Lequel est correct?*
 - [ ] ``` i =+ 1; ```
 - [ ] ``` i += 1; ```
@@ -83,7 +87,9 @@ blockquote:after{
 - [ ] ``` window.history.load_next(); ```
 - [ ] ``` window.history.forward(); ```
 - [ ] ``` window.history.load_forward(); ```
+
 ---
+
 **Question 7** : *Comment écrivez-vous n'importe quoi dans la page Web en JavaScript?  
 - [ ] ``` window.write(...) ```
 - [ ] ``` document.write(...) ```
@@ -95,7 +101,9 @@ blockquote:after{
 - [ ] ``` var fruits = (1:"banana", 2:"apple", 3:"peach"); ```
 - [ ] ``` var fruits = ["banana", "apple", "peach"]; ```
 - [ ] ``` var fruits = 1 = ("banana"), 2 = ("apple"), 3 = ("peach"); ```
+
 ---
+
 **Question 9** : *Peut-on définir n'importe quel style à une balise HTML en utilisant JavaScript?* 
 - [ ] ``` oui ```
 - [ ] ``` non ```
@@ -109,7 +117,9 @@ arr.slice(0,3);
 - [ ] ``` Renvoie [1,2,3,4] ```
 - [ ] ``` Renvoie [1,2,3] ```
 - [ ] ``` Renvoie [1,2,3,4,5] ```
+
 ---
+
 **Question 11** : *Lequel des suivants est utilisé pour identifier un tableau?* 
 - [ ] ``` === ```
 - [ ] ``` typeof ```
@@ -121,7 +131,9 @@ arr.slice(0,3);
 - [ ] ``` Méthode ```
 - [ ] ``` Procédure ```
 - [ ] ``` Fonction dynamique ```
+
 ---
+
 **Question 13** : *JavaScript n'est pas un langage sensible à la casse.*
 - [ ] ``` vrai ```
 - [ ] ``` faux ```
@@ -133,7 +145,9 @@ arr.slice(0,3);
 - [ ] ``` Object.parse()```
 - [ ] ``` String.parseJSON()```
 - [ ] ``` JSON.toObject()```
+
 ---
+
 **Question 15** : *Comment créez-vous une promesse en JavaScript?*
 - [ ] ``` new Promise()```
 - [ ] ``` Promise.create()```
@@ -146,7 +160,9 @@ arr.slice(0,3);
 - [ ] ``` JSON.parse()```
 - [ ] ``` Object.toString()```
 - [ ] ``` Stringify.object()```
+
 ---
+
 **Question 17** : *Comment déclarez-vous une classe nommée 'Car' en JavaScript?*
 
 - [ ] ``` class Car {}```
@@ -160,21 +176,27 @@ arr.slice(0,3);
 - [ ] ``` async function() {}```
 - [ ] ``` function() async {}```
 - [ ] ``` async() function {}```
+
 ---
+
 **Question 19** : *Comment pouvez-vous empêcher une action par défaut dans un gestionnaire d'événements en JavaScript?*
 
 - [ ] ``` event.preventDefault()```
 - [ ] ``` event.stop()```
 - [ ] ``` preventDefault()```
 - [ ] ``` event.stopPropagation()```
+
 ---
+
 **Question 20** : *Que fait la méthode 'map' en JavaScript?*
 
 - [ ] ``` Associe une valeur à une clé dans un objet```
 - [ ] ``` Crée un nouveau tableau avec les résultats de l'appel d'une fonction pour chaque élément du tableau```
 - [ ] ``` Applique une fonction contre un accumulateur et chaque élément dans le tableau (de gauche à droite)```
 - [ ] ``` Recherche des éléments dans un tableau qui correspondent à une condition```
+
 ---
+
 **Question 21** : *Quelle méthode JavaScript est utilisée pour trier les éléments d'un tableau?*
 
 - [ ] ``` array.sort()```
@@ -188,14 +210,18 @@ arr.slice(0,3);
 - [ ] ``` parseNum('3.14')```
 - [ ] ``` int('3.14')```
 - [ ] ``` parseFloat('3.14')```
+
 ---
+
 **Question 23** : *Dans quel élément mettez-vous JavaScript?*
 
 - [ ] ``` <var>```
 - [ ] ``` <script>```
 - [ ] ``` <section>```
 - [ ] ``` <code>```
+
 ---
+
 **Question 24** : *Quel est le résultat de la variable "docs"?*
 ```js
 var docs;
@@ -208,7 +234,9 @@ if (10 > 4) {
 - [ ] ``` true```
 - [ ] ``` 55```
 - [ ] ``` undefined```
+
 ---
+
 **Question 25** : *Comment arrondissez-vous le nombre 5.35 au plus proche entier?*
 
 - [ ] ``` rnd(5.35)```
@@ -222,7 +250,9 @@ if (10 > 4) {
 - [ ] ``` docs = window.new("http://www.docs.com");```
 - [ ] ``` docs = window.open("http://www.docs.com");```
 - [ ] ``` docs = window("http://www.docs.com");```
+
 ---
+
 **Question 27** : *Quel sera le résultat du code suivant?*
 ```js
 let stringToNum = parseInt("123ab");
@@ -240,7 +270,9 @@ let total = eval("10*10+8");
 - [ ] ``` 108 en tant que valeur entière```
 - [ ] ``` 108 en tant que chaîne```
 - [ ] ``` Exception levée```
+
 ---
+
 **Question 29** : *Que se passe-t-il si l'instruction 'return' n'a pas d'expression associée?*
 
 - [ ] ``` Elle va déclencher une exception```
@@ -254,7 +286,9 @@ let total = eval("10*10+8");
 - [ ] ``` La fonction elle-même```
 - [ ] ``` L'objet qui a appelé la méthode```
 - [ ] ``` L'objet document```
+
 ---
+
 **Question 31** : *Quelle méthode est utilisée pour arrondir un nombre au plus proche entier en JavaScript?*
 
 - [ ] ``` Math.round()```
@@ -268,7 +302,9 @@ let total = eval("10*10+8");
 - [ ] ```===```
 - [ ] ```!=```
 - [ ] ```!==```
+
 ---
+
 **Question 33** : *Quelle méthode JavaScript est utilisée pour itérer sur toutes les propriétés d'un objet?*
 
 - [ ] ``` Object.forEach()```
@@ -282,7 +318,9 @@ let total = eval("10*10+8");
 - [ ] ``` Joint deux tableaux en un seul```
 - [ ] ``` Trie les éléments d'un tableau```
 - [ ] ``` Trouve l'indice d'un élément dans le tableau```
+
 ---
+
 **Question 35** : *Quelle méthode JavaScript est utilisée pour retirer le dernier élément d'un tableau et renvoyer cet élément?*
 
 - [ ] ``` pop()```
@@ -296,7 +334,9 @@ let total = eval("10*10+8");
 - [ ] ``` Pour briser le code en plusieurs lignes```
 - [ ] ``` Pour sortir d'une fonction```
 - [ ] ``` Pour mettre en pause le débogueur```
+
 ---
+
 **Question 37** : *Quelle méthode est utilisée pour ajouter un ou plusieurs éléments au début d'un tableau?*
 
 - [ ] ``` unshift()```
@@ -310,14 +350,18 @@ let total = eval("10*10+8");
 - [ ] ``` Number```
 - [ ] ``` Float```
 - [ ] ``` Boolean```
+
 ---
+
 **Question 39** : *Quelle méthode est utilisée pour transformer une chaîne en un entier en JavaScript?*
 
 - [ ] ``` int.parse()```
 - [ ] ``` Number.parseInt()```
 - [ ] ``` parseInt()```
 - [ ] ``` Math.parseInt()```
+
 ---
+
 > [!WARNING]
 > Un bonheur n'arrivant jamais seul... >>
 > [2ème questionnaires](/second.md) 🚀

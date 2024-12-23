@@ -30,9 +30,10 @@ blockquote:after{
 }
 </style>
 
-# ![center](/asset/logo.jpg)
+# ![center](./asset/logo.jpg)
 
 ---
+
 > [Notes]
 > liste des thèmes du questionnaire :
 
@@ -48,7 +49,7 @@ blockquote:after{
 > [!IMPORTANT]
 > plusieurs réponses sont possible sur certaines questions
 ---
-
+<!-- _class: lead -->
 **Question 1** : *Comment écrire "Hello" dans une boîte d'alerte?* 
 - [ ] ```alertBox("Hello");```
 - [ ] ```alert("Hello");```
@@ -62,6 +63,7 @@ blockquote:after{
 - [ ] ``` {# ... #} ```
   
 ---
+<!-- _class: invert -->
 
 **Question 3** : *Comment pouvez-vous détecter le nom de l'application du navigateur du client?*  
 - [ ] ``` navigator.appName; ```

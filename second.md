@@ -1,10 +1,40 @@
-<div align="center">
-  <img
-    src="./asset/logo.jpg"
-    width="40%"
-    height="40%"
-  />
-</div>
+---
+marp: true
+theme: default
+markdown.marp.enableHtml: true
+paginate: true
+---
+<style>
+
+section {
+  background-color: #fefefe;
+  color: #333;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+input { 
+  
+}
+
+blockquote {
+  background:rgb(230, 227, 222);
+  border-left: 10px solidrgb(203, 15, 52);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+blockquote:before{
+  content: unset;
+}
+blockquote:after{
+  content: unset;
+}
+</style>
+
+# ![center](./asset/logo.jpg)
 
 ---
 

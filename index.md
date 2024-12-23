@@ -30,6 +30,7 @@ blockquote:after{
 }
 </style>
 
+
 # ![center](./asset/logo.jpg)
 
 ---
@@ -49,7 +50,9 @@ blockquote:after{
 > [!IMPORTANT]
 > plusieurs réponses sont possible sur certaines questions
 ---
+
 <!-- _class: lead -->
+
 **Question 1** : *Comment écrire "Hello" dans une boîte d'alerte?* 
 - [ ] ```alertBox("Hello");```
 - [ ] ```alert("Hello");```
@@ -63,7 +66,6 @@ blockquote:after{
 - [ ] ``` {# ... #} ```
   
 ---
-<!-- _class: invert -->
 
 **Question 3** : *Comment pouvez-vous détecter le nom de l'application du navigateur du client?*  
 - [ ] ``` navigator.appName; ```
@@ -365,7 +367,7 @@ let total = eval("10*10+8");
 ---
 
 > [!WARNING]
-> Un bonheur n'arrivant jamais seul... >>
-> [2ème questionnaires](/second.md) 🚀
+> Un bonheur n'arrivant jamais seul... 
+> [un 2ème questionnaire](/second.md) 🚀
 
 *Created with markdown & Marp by Jérôme BOEBION*  

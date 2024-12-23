@@ -9,23 +9,20 @@
 ---
 
 > [Notes]
-> liste de thèmes du questionnaire :
+> liste des thèmes du questionnaire :
 
     Syntaxe et Types de Données
     Fonctions
     Objets et Prototypes
     Manipulation du DOM
     Événements
-    Asynchronisme (Promesses, Async/Await)
+    Asynchrone (Promesses, Async/Await)
     Modules et Import/Export
     Gestion des Erreurs
-    ES6+ (nouvelles fonctionnalités de JavaScript)
-    Performance et Optimisation
-
 ---
 
 > [!IMPORTANT]
-> plusieurs réponses possible sur certaines questions
+> plusieurs réponses sont possible sur certaines questions
 
 ---
 
@@ -300,7 +297,8 @@ let total = eval("10*10+8");
 - [ ] ``` Math.parseInt()```
 
 ---
-
-[2ème questionnaires](/second.md)
+> [!WARNING]
+> Un bonheur n'arrivant jamais seul... >>
+> [2ème questionnaires](/second.md)
 
 ---

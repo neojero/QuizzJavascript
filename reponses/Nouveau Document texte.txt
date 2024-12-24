@@ -1,0 +1,102 @@
+Questions de Code
+
+    Écrivez une fonction qui prend un tableau de nombres et retourne la somme de tous les éléments.
+
+function sumArray(arr) {
+  return arr.reduce((acc, val) => acc + val, 0);
+}
+
+console.log(sumArray([1, 2, 3, 4, 5])); // Doit afficher 15
+
+    Écrivez une fonction fléchée qui prend deux nombres et retourne leur produit.
+
+const multiply = (a, b) => a * b;
+
+console.log(multiply(3, 4)); // Doit afficher 12
+
+    Écrivez une fonction qui utilise Object.assign pour fusionner deux objets.
+
+const obj1 = { a: 1, b: 2 };
+const obj2 = { b: 3, c: 4 };
+
+function mergeObjects(obj1, obj2) {
+  return Object.assign({}, obj1, obj2);
+}
+
+console.log(mergeObjects(obj1, obj2)); // Doit afficher { a: 1, b: 3, c: 4 }
+
+    Écrivez une fonction qui ajoute un écouteur d'événement à un bouton et affiche un message lorsque le bouton est cliqué.
+
+function addClickListener(button) {
+  button.addEventListener('click', () => {
+    console.log('Button clicked!');
+  });
+}
+
+const button = document.createElement('button');
+button.textContent = 'Click me';
+document.body.appendChild(button);
+addClickListener(button);
+
+    Écrivez une fonction qui utilise async et await pour attendre une seconde avant de retourner un message.
+
+async function delayMessage() {
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  return 'Message after 1 second';
+}
+
+delayMessage().then(message => console.log(message)); // Doit afficher "Message after 1 second" après 1 seconde
+
+    Écrivez une fonction qui utilise Promise.all pour attendre plusieurs promesses et retourner leurs résultats.
+
+function waitAllPromises() {
+  const promise1 = new Promise(resolve => setTimeout(() => resolve('Promise 1'), 1000));
+  const promise2 = new Promise(resolve => setTimeout(() => resolve('Promise 2'), 2000));
+
+  return Promise.all([promise1, promise2]);
+}
+
+waitAllPromises().then(results => console.log(results)); // Doit afficher ["Promise 1", "Promise 2"] après 2 secondes
+
+    Écrivez une fonction qui utilise Promise.race pour obtenir le résultat de la première promesse résolue.
+
+function waitFirstPromise() {
+  const promise1 = new Promise(resolve => setTimeout(() => resolve('Promise 1'), 1000));
+  const promise2 = new Promise(resolve => setTimeout(() => resolve('Promise 2'), 2000));
+
+  return Promise.race([promise1, promise2]);
+}
+
+waitFirstPromise().then(result => console.log(result)); // Doit afficher "Promise 1" après 1 seconde
+
+    Écrivez une fonction qui utilise Promise.resolve pour créer une promesse résolue.
+
+function createResolvedPromise(value) {
+  return Promise.resolve(value);
+}
+
+createResolvedPromise('Resolved').then(result => console.log(result)); // Doit afficher "Resolved"
+
+    Écrivez une fonction qui utilise Promise.reject pour créer une promesse rejetée.
+
+function createRejectedPromise(reason) {
+  return Promise.reject(reason);
+}
+
+createRejectedPromise('Rejected').catch(error => console.log(error)); // Doit afficher "Rejected"
+
+    Écrivez une fonction qui chaîne plusieurs promesses et retourne le résultat final.
+
+function chainPromises() {
+  return new Promise(resolve => setTimeout(() => resolve('First'), 1000))
+    .then(result => {
+      console.log(result);
+      return new Promise(resolve => setTimeout(() => resolve('Second'), 1000));
+    })
+    .then(result => {
+      console.log(result);
+      return 'Final Result';
+    });
+}
+
+chainPromises().then(result => console.log(result)); // Doit afficher "First" après 1 seconde, "S

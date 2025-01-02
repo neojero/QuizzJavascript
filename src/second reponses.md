@@ -66,15 +66,15 @@ blockquote:after{
 ## Syntaxe et Types de Données
 
 **Question 1** : Comment déclarer et utiliser une variable de type string en JavaScript ?
-- [ ] ``` let str = "Hello";```
+- [X] ``` let str = "Hello";```
 - [ ] ``` const str = 'Hello';```
-- [ ] ``` var str = "Hello";```
+- [X] ``` var str = "Hello";```
 - [ ] ``` string str = "Hello";```
 
 ---
 
 **Question 2** : Quelle est la différence entre == et === en JavaScript ?
-- [ ] ``` == compare la valeur, === compare la valeur et le type.```
+- [X] ``` == compare la valeur, === compare la valeur et le type.```
 - [ ] ``` == compare le type, === compare la valeur.```
 - [ ] ``` == et === sont identiques.```
 - [ ] ``` == compare la valeur et le type, === compare seulement la valeur.```
@@ -82,7 +82,7 @@ blockquote:after{
 ---
 
 **Question 3** : Comment vérifier si une variable est de type number en JavaScript ?
-- [ ] ``` typeof variable === 'number'```
+- [X] ``` typeof variable === 'number'```
 - [ ] ``` variable instanceof Number```
 - [ ] ``` variable.isNumber()```
 - [ ] ``` Number.isNumber(variable)```
@@ -90,7 +90,7 @@ blockquote:after{
 ---
 
 **Question 4** : Quelle est la différence entre un array et un object en JavaScript ?
-- [ ] ```Un array est une liste ordonnée, un object est une collection de paires clé-valeur.```
+- [X] ```Un array est une liste ordonnée, un object est une collection de paires clé-valeur.```
 - [ ] ```Un array est une collection de paires clé-valeur, un object est une liste ordonnée.```
 - [ ] ```Un array et un object sont identiques.```
 - [ ] ```Un array est une fonction, un object est une liste.```
@@ -103,20 +103,20 @@ blockquote:after{
 - [ ] ``` function myFunction() {}```
 - [ ] ``` let myFunction = function() {}```
 - [ ] ``` const myFunction = () => {}```
-- [ ] ``` Toutes les réponses ci-dessus sont correctes.```
+- [X] ``` Toutes les réponses ci-dessus sont correctes.```
 
 ---
 
 **Question 6** : Qu'est-ce qu'une fonction fléchée (arrow function) et comment l'utiliser ?
 - [ ] ``` function arrowFunction() {}```
-- [ ] ``` let arrowFunction = () => {}```
+- [X] ``` let arrowFunction = () => {}```
 - [ ] ``` const arrowFunction = function() {}```
 - [ ] ``` arrowFunction = () => {}```
 
 ---
 
 **Question 7** : Comment passer des paramètres par défaut à une fonction en JavaScript ?
-- [ ] ``` function myFunction(param = 'default') {}```
+- [X] ``` function myFunction(param = 'default') {}```
 - [ ] ``` function myFunction(param = default) {}```
 - [ ] ``` function myFunction(param = defaultValue) {}```
 - [ ] ``` function myFunction(param = 'defaultValue') {}```
@@ -128,7 +128,7 @@ blockquote:after{
 - [ ] function() {}
 ```
 ```js
-- [ ] let anonymousFunction = function() {}
+- [X] let anonymousFunction = function() {}
 ``` 
 ```js 
 - [ ] const anonymousFunction = () => {}
@@ -140,7 +140,7 @@ blockquote:after{
 
 **Question 9** : Comment utiliser la méthode apply pour appeler une fonction avec un contexte spécifique ?
 ```js
-- [ ] myFunction.apply(context, [args])
+- [X] myFunction.apply(context, [args])
 ```
 ```js
 - [ ] myFunction.call(context, args)
@@ -166,13 +166,13 @@ blockquote:after{
 - [ ] var obj = Object.create()
 ```
 ```js
-- [ ] Toutes les réponses ci-dessus sont correctes.
+- [X] Toutes les réponses ci-dessus sont correctes.
 ```
 ---
 
 **Question 11** : Qu'est-ce qu'un prototype en JavaScript et comment l'utiliser ?
 ```js
-- [ ] function MyObject() {} MyObject.prototype.method = function() {}
+- [X] function MyObject() {} MyObject.prototype.method = function() {}
 ```
 ```js
 - [ ] let MyObject = { prototype: { method: function() {} } }
@@ -187,7 +187,7 @@ blockquote:after{
 
 **Question 12** : Comment ajouter une méthode à un prototype d'objet ?
 ```js
-- [ ] MyObject.prototype.newMethod = function() {}
+- [X] MyObject.prototype.newMethod = function() {}
 ```
 ```js
 - [ ] MyObject.newMethod = function() {}
@@ -201,7 +201,7 @@ blockquote:after{
 ---
 
 **Question 13** : Quelle est la différence entre Object.create et l'opérateur new ?
-- [ ] ``` Object.create crée un nouvel objet avec un prototype spécifié, new crée une instance d'une fonction constructeur.```
+- [X] ``` Object.create crée un nouvel objet avec un prototype spécifié, new crée une instance d'une fonction constructeur.```
 - [ ] ``` Object.create crée une instance d'une fonction constructeur, new crée un nouvel objet avec un prototype spécifié.```
 - [ ] ``` Object.create et new sont identiques.```
 - [ ] ``` Object.create est utilisé pour les objets, new est utilisé pour les fonctions.```
@@ -210,7 +210,7 @@ blockquote:after{
 
 **Question 14** : Comment utiliser Object.assign pour fusionner des objets ?
 ```js
-- [ ] Object.assign(target, source1, source2)
+- [X] Object.assign(target, source1, source2)
 ```
 ```js
 - [ ] Object.merge(target, source1, source2)
@@ -227,7 +227,7 @@ blockquote:after{
 
 **Question 15** : Comment sélectionner un élément par son ID en JavaScript ?
 ```js
-- [ ] document.getElementById('id')
+- [X] document.getElementById('id')
 ```
 ```js
 - [ ] document.querySelector('#id')
@@ -242,7 +242,7 @@ blockquote:after{
 
 **Question 16** : Comment ajouter un nouvel élément au DOM ?
 ```js
-- [ ] document.createElement('element')
+- [X] document.createElement('element')
 ```
 ```js
 - [ ] document.append('element')
@@ -258,7 +258,7 @@ blockquote:after{
 
 **Question 17** : Comment modifier le contenu textuel d'un élément ?
 ```js
-- [ ] element.textContent = 'new text'
+- [X] element.textContent = 'new text'
 ```
 ```js
 - [ ] element.innerText = 'new text'
@@ -273,7 +273,7 @@ blockquote:after{
 
 **Question 18** : Comment ajouter un écouteur d'événement à un élément ?
 ```js
-- [ ] element.addEventListener('event', callback)
+- [X] element.addEventListener('event', callback)
 ```
 ```js
 - [ ] element.addListener('event', callback)
@@ -288,7 +288,7 @@ blockquote:after{
 
 **Question 19** : Comment supprimer un élément du DOM ?
 ```js
-- [ ] element.remove()
+- [X] element.remove()
 ```
 ```js
 - [ ] element.delete()
@@ -314,12 +314,12 @@ blockquote:after{
 - [ ] button.click(callback)
 ```
 ```js
-- [ ] Toutes les réponses ci-dessus sont correctes.
+- [X] Toutes les réponses ci-dessus sont correctes.
 ```
 ---
 
 **Question 21** : Quelle est la différence entre addEventListener et onclick ?
-- [ ] ``` addEventListener permet d'ajouter plusieurs écouteurs, onclick remplace l'écouteur existant.```
+- [X] ``` addEventListener permet d'ajouter plusieurs écouteurs, onclick remplace l'écouteur existant.```
 - [ ] ``` addEventListener remplace l'écouteur existant, onclick permet d'ajouter plusieurs écouteurs.```
 - [ ] ``` addEventListener et onclick sont identiques.```
 - [ ] ``` addEventListener est utilisé pour les événements, onclick est utilisé pour les fonctions.```
@@ -328,7 +328,7 @@ blockquote:after{
 
 **Question 22** : Comment empêcher le comportement par défaut d'un événement ?
 ```js
-- [ ] event.preventDefault()
+- [X] event.preventDefault()
 ```
 ```js
 - [ ] event.stopDefault()
@@ -343,7 +343,7 @@ blockquote:after{
 
 **Question 23** : Comment arrêter la propagation d'un événement ?
 ```js
-- [ ] event.stopPropagation()
+- [X] event.stopPropagation()
 ```
 ```js
 - [ ] event.stopBubbling()
@@ -358,7 +358,7 @@ blockquote:after{
 
 **Question 24** : Comment déléguer des événements en JavaScript ?
 ```js
-- [ ] parent.addEventListener('event', callback)
+- [X] parent.addEventListener('event', callback)
 ```
 ```js
 - [ ] parent.delegate('event', callback)
@@ -375,7 +375,7 @@ blockquote:after{
 
 **Question 25** : Qu'est-ce qu'une promesse en JavaScript et comment l'utiliser ?
 ```js
-- [ ] let promise = new Promise((resolve, reject) => {})
+- [X] let promise = new Promise((resolve, reject) => {})
 ```
 ```js
 - [ ] let promise = Promise.create((resolve, reject) => {})
@@ -390,7 +390,7 @@ blockquote:after{
 
 **Question 26** : Comment utiliser async et await pour gérer des opérations asynchrones ?
 ```js
-- [ ] async function myFunction() { await promise; }
+- [X] async function myFunction() { await promise; }
 ```
 ```js
 - [ ] function myFunction() { async await promise; }
@@ -404,7 +404,7 @@ blockquote:after{
 ---
 
 **Question 27** : Quelle est la différence entre Promise.all et Promise.race ?
-- [ ] ``` Promise.all attend que toutes les promesses soient résolues, Promise.race attend que la première promesse soit résolue.```
+- [X] ``` Promise.all attend que toutes les promesses soient résolues, Promise.race attend que la première promesse soit résolue.```
 - [ ] ``` Promise.all attend que la première promesse soit résolue, Promise.race attend que toutes les promesses soient résolues.```
 - [ ] ``` Promise.all et Promise.race sont identiques.```
 - [ ] ``` Promise.all est utilisé pour les promesses, Promise.race est utilisé pour les fonctions.```
@@ -413,7 +413,7 @@ blockquote:after{
 
 **Question 28** : Comment gérer les erreurs avec async et await ?
 ```js
-- [ ] try { await promise; } catch (error) {}
+- [X] try { await promise; } catch (error) {}
 ```
 ```js
 - [ ] async { await promise; } catch (error) {}
@@ -435,7 +435,7 @@ blockquote:after{
 - [ ] Promise.delay(1000)
 ``` 
 ```js 
-- [ ] new Promise(resolve => setTimeout(() => resolve(), 1000))
+- [X] new Promise(resolve => setTimeout(() => resolve(), 1000))
 ```
 ```js
 - [ ] Promise.timeout(1000)
@@ -446,7 +446,7 @@ blockquote:after{
 
 **Question 30** : Comment exporter une fonction depuis un module en JavaScript ?
 ```js
-- [ ] export function myFunction() {}
+- [X] export function myFunction() {}
 ```
 ```js
 - [ ] module.exports = myFunction
@@ -461,7 +461,7 @@ blockquote:after{
 
 **Question 31** : Comment importer une fonction depuis un module en JavaScript ?
 ```js
-- [ ] import { myFunction } from 'module'
+- [X] import { myFunction } from 'module'
 ```
 ```js
 - [ ] const myFunction = require('module')
@@ -475,7 +475,7 @@ blockquote:after{
 ---
 
 **Question 32** : Quelle est la différence entre export default et export nommé ?
-- [ ] ``` export default exporte une seule valeur par défaut, export nommé exporte plusieurs valeurs.```
+- [X] ``` export default exporte une seule valeur par défaut, export nommé exporte plusieurs valeurs.```
 - [ ] ``` export default exporte plusieurs valeurs, export nommé exporte une seule valeur par défaut.```
 - [ ] ``` export default et export nommé sont identiques.```
 - [ ] ``` export default est utilisé pour les fonctions, export nommé est utilisé pour les variables.```
@@ -484,7 +484,7 @@ blockquote:after{
 
 **Question 33** : Comment utiliser des modules ES6 dans un projet JavaScript ?
 ```js
-- [ ] import 'module'
+- [X] import 'module'
 ```
 ```js
 - [ ] require('module')
@@ -499,7 +499,7 @@ blockquote:after{
 
 **Question 34** : Comment gérer les dépendances avec des modules en JavaScript ?
 ```js
-- [ ] import { myFunction } from 'module'
+- [X] import { myFunction } from 'module'
 ```
 ```js
 - [ ] const dependency = require('module')
@@ -516,7 +516,7 @@ blockquote:after{
 
 **Question 35** : Comment utiliser try, catch et finally pour gérer les erreurs en JavaScript ?
 ```js
-- [ ] try { code } catch (error) { handleError } finally { cleanup }
+- [X] try { code } catch (error) { handleError } finally { cleanup }
 ```
 ```js
 - [ ] try { code } catch (error) { handleError }
@@ -529,14 +529,14 @@ blockquote:after{
 ```
 ---
 **Question 36** : Qu'est-ce qu'une erreur de référence (ReferenceError) et comment la gérer ?
-- [ ] ``` Une erreur qui se produit lorsqu'une variable n'est pas définie.```
+- [X] ``` Une erreur qui se produit lorsqu'une variable n'est pas définie.```
 - [ ] ``` Une erreur qui se produit lorsqu'une fonction n'est pas définie.```
 - [ ] ``` Une erreur qui se produit lorsqu'un objet n'est pas défini.```
 - [ ] ``` Une erreur qui se produit lorsqu'une méthode n'est pas définie.```
 ---
 **Question 37** : Comment lancer une erreur personnalisée en JavaScript ?
 ```js
-- [ ] throw new Error('message')
+- [X] throw new Error('message')
 ```
 ```js
 - [ ] throw 'message'
@@ -550,7 +550,7 @@ blockquote:after{
 ---
 **Question 38** : Comment gérer les erreurs asynchrones avec async et await ?
 ```js
-- [ ] try { await promise; } catch (error) {}
+- [X] try { await promise; } catch (error) {}
 ```
 ```js
 - [ ] async { await promise; } catch (error) {}
@@ -564,7 +564,7 @@ blockquote:after{
 ---
 **Question 39** : Comment utiliser console.error pour afficher des messages d'erreur ?
 ```js
-- [ ] console.error('message')
+- [X] console.error('message')
 ```
 ```js
 - [ ] console.log('error: message')
@@ -578,7 +578,7 @@ blockquote:after{
 ---
 **Question 40** : Comment utiliser les paramètres rest et spread en JavaScript ?
 ```js
-- [ ] function myFunction(...args) {}
+- [X] function myFunction(...args) {}
 ```
 ```js
 - [ ] function myFunction(args...) {}
@@ -591,7 +591,7 @@ blockquote:after{
 ```
 ---
 **Question 41** : Qu'est-ce que le let et const et comment les utiliser ?
-- [ ] ``` let est utilisé pour les variables mutables, const pour les variables immuables.```
+- [X] ``` let est utilisé pour les variables mutables, const pour les variables immuables.```
 - [ ] ``` let est utilisé pour les variables immuables, const pour les variables mutables.```
 - [ ] ``` let et const sont identiques.```
 - [ ] ``` let est utilisé pour les fonctions, const pour les objets.```
@@ -601,7 +601,7 @@ blockquote:after{
 **Question 42** : Écrivez une fonction qui prend un tableau de nombres et retourne la somme de tous les éléments.
 ```js
 function sumArray(arr) {
-  // Votre code ici
+  return arr.reduce((acc, val) => acc + val, 0);
 }
 
 console.log(sumArray([1, 2, 3, 4, 5])); // Doit afficher 15
@@ -610,7 +610,7 @@ console.log(sumArray([1, 2, 3, 4, 5])); // Doit afficher 15
 **Question 43** : Écrivez une fonction fléchée qui prend deux nombres et retourne leur produit.
 ```js
 const multiply = (a, b) => {
-  // Votre code ici
+  a * b;
 };
 
 console.log(multiply(3, 4)); // Doit afficher 12
@@ -622,7 +622,7 @@ const obj1 = { a: 1, b: 2 };
 const obj2 = { b: 3, c: 4 };
 
 function mergeObjects(obj1, obj2) {
-  // Votre code ici
+  return Object.assign({}, obj1, obj2);
 }
 
 console.log(mergeObjects(obj1, obj2)); // Doit afficher { a: 1, b: 3, c: 4 }
@@ -643,7 +643,8 @@ addClickListener(button);
 **Question 46** : Écrivez une fonction qui utilise async et await pour attendre une seconde avant de retourner un message.
 ```js
 async function delayMessage() {
-  // Votre code ici
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  return 'Message after 1 second';
 }
 
 delayMessage().then(message => console.log(message)); // Doit afficher "Message after 1 second" après 1 seconde

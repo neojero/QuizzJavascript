@@ -1,0 +1,20 @@
+**Question 44** : Écrivez une fonction qui ajoute un écouteur d'événement à un bouton et affiche un message lorsque le bouton est cliqué.
+
+function addClickListener(button) {
+  // Votre code ici
+}
+
+const button = document.createElement('button');
+button.textContent = 'Click me';
+document.body.appendChild(button);
+addClickListener(button);
+
+---
+
+**Question 44** : Écrivez une fonction qui utilise async et await pour attendre une seconde avant de retourner un message.
+
+async function delayMessage() {
+  // Votre code ici
+}
+
+delayMessage().then(message => console.log(message)); // Doit afficher "Message after 1 second" a
